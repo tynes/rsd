@@ -1,7 +1,9 @@
 [package]
 name = "coins"
 version = "0.1.0"
-authors = ["Jake Geiser <32041734+JGeiser9@users.noreply.github.com>"]
+authors = [ "Jake Geiser <32041734+JGeiser9@users.noreply.github.com>" ]
 edition = "2018"
 
 [dependencies]
+handshake_primitives = { path = "../primitives" }
+
