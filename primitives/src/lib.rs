@@ -5,6 +5,7 @@ pub mod input;
 pub mod outpoint;
 pub mod output;
 pub mod transaction;
+pub mod coin;
 
 pub use crate::address::Address;
 pub use crate::covenant::Covenant;
@@ -13,3 +14,4 @@ pub use crate::input::Input;
 pub use crate::outpoint::Outpoint;
 pub use crate::output::Output;
 pub use crate::transaction::Transaction;
+pub use crate::coin::Coin;

@@ -1,6 +1,6 @@
 use handshake_types::Hash;
 
-#[derive(PartialEq, Eq, Clone, Debug)]
+#[derive(PartialEq, Eq, Clone, Debug, Default)]
 pub struct Address {
     pub version: u32,
     pub hash: Hash,

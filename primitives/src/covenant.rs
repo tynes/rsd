@@ -63,6 +63,12 @@ impl Covenant {
     }
 }
 
+impl Default for Covenant {
+    fn default() -> Self {
+        Covenant::None
+    }
+}
+
 //TODO formatting, and I think common functions to_hex, from_hex.
 //when I say formatting I mean Debug and to_string functions.
 
