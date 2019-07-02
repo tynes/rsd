@@ -103,7 +103,7 @@ impl error::Error for ParseAmountError {
     }
 }
 
-#[derive(Copy, Clone, Eq, PartialEq, Debug)]
+#[derive(Copy, Clone, Eq, PartialEq, Debug, Default)]
 pub struct Amount(u64);
 
 impl Amount {

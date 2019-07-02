@@ -19,7 +19,8 @@ members = [
 "mining",
 "blockchain",
 "net",
-"types"
+"types",
+"coins"
 ]
 
 # [dependencies]
